@@ -6,7 +6,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
  let tag = `@${m.sender.split('@')[0]}`
  let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999, status: 1, surface: 1, message: `${command} ${type}`, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙;;;\nFN:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nORG:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nTITLE:\nitem1.TEL;waid=6281361281833:+62 813-6128-1833\nitem1.X-ABLabel:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Wå.mê/Äkmål🐤;;;\nFN:Wå.mê/Äkmål🐤\nORG:Wå.mê/Äkmål🐤\nTITLE:\nitem1.TEL;waid=6281283186765:+62 812-8318-6765\nitem1.X-ABLabel:Wå.mê/Äkmål🐤\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Wå.mê/Äkmål🐤\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/own.jpg')
   let nowner1 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
@@ -22,29 +22,29 @@ let teksnomor = (
 )
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown1 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
-let teksbio = `┆⫹⫺ 💌 Nama : Aldi
+let teksbio = `┆⫹⫺ 💌 Nama : AKMAL
 ┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
 ┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 16 - 10 - 2007
-┆⫹⫺ 🎨 Umur : 15
+┆⫹⫺ ⏰ Tanggal lahir : 25 - 10 - 2003
+┆⫹⫺ 🎨 Umur : 18
 ┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : 𝙼𝚘𝚍𝚒𝚏𝚒𝚔𝚊𝚜𝚒 𝚙𝚎𝚛𝚊𝚗𝚐𝚔𝚊𝚝 𝚕𝚞𝚗𝚊𝚔
+┆⫹⫺ 🧩 Hobby : nonton anim, baca manga, denger musik, turu
 ┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Sumatera Utara
+┆⫹⫺ 🗺️ Tinggal : Indonesia, JAWA TENGAH
 └––––––––––––·•
 `
 let ppown2 = await conn.profilePictureUrl(nomorown2 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio2 = `┆⫹⫺ 💌 Nama : Aisyah
+let teksbio2 = `┆⫹⫺ 💌 Nama : Veliona putri
 ┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
 ┆⫹⫺ ♂️ Gender : Wanita
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 07 - 05 - 2007
-┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : Banyak
-┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Bengkulu
+┆⫹⫺ ⏰ Tanggal lahir : 26 - 05 - 2005
+┆⫹⫺ 🎨 Umur : 17
+┆⫹⫺ 🧮 Kelas : XII
+┆⫹⫺ 🧩 Hobby : nonton anim, baca manga, denger musik, menggambar
+┆⫹⫺ 💬 Sifat : Toxic
+┆⫹⫺ 🗺️ Tinggal : Indonesia, Jawa barat
 └––––––––––––·•
 `
 
@@ -63,8 +63,8 @@ title: `⫹⫺ Oᴛʜᴇʀ ⫹⫺`,
 rows: [
 {title: "⸙ Kontak", rowId: ".owner kontak"},
 {title: "⸙ Nomor", rowId: ".owner nomor"},
-{title: "⸙ Biodata Aldi", rowId: ".owner bio"},
-{title: "⸙ Biodata Aisyah", rowId: ".owner bio2"},
+{title: "⸙ Biodata Akmal", rowId: ".owner bio"},
+{title: "⸙ Biodata Veliona", rowId: ".owner bio2"},
 {title: "⸙ Script", rowId: ".sc"},
 ]}, {
 title: `⬔ Sᴜᴘᴘᴏʀᴛ Mᴇ ⬔`,
