@@ -122,7 +122,7 @@ global.sig = 'https://instagram.com/_b4c00t4an_s3l3b'
 global.sgh = 'https://github.com/hyuura-official' //github
 global.sgc = 'https://chat.whatsapp.com/LmbsOrpSGEpDdFdpuukmmP' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg'
+global.snh = 'https://teknosimple.com/tQ6ST'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.pdana = '0812 8318 6765'
